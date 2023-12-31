@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%
+}
+
+.main-title {
+    display: flex;
+    align-items: center;
+    height: fit-content;
+}
+
+h1 {
+    font-size: 7rem;
+    text-transform: uppercase ;
+    display: inline;
+}
+
+.smiley-container {
+    border-radius: 1.5rem;
+    margin-left: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.instruction-container {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.game-container {
+    background-color: rgb(24, 24, 24);
+    width: 800px;
+    height: 800px;
+    border-radius: 3em;
+    box-shadow: inset 5px 5px 10px rgb(71, 69, 69), inset -10px -10px 20px black;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 2rem;
+    position: relative;
+}
+
+
+.smiley {
+    color: white;
+    font-size: 8rem;
+}
+
+.game-button {
+    width: 47%;
+    height: 47%;
+    border-radius: 1.5rem;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.red {
+    background: radial-gradient(circle, rgb(230, 140, 140) 0%,  rgb(255, 0, 0) 100%);
+    box-shadow: inset 5px 5px 10px rgb(230, 193, 193), inset -10px -10px 10px rgb(126, 2, 2);
+    opacity: 0.5;
+}
+
+.green {
+    background: radial-gradient(circle, rgb(166, 255, 166) 0%,  rgb(0, 189, 0) 100%);
+    box-shadow: inset 5px 5px 10px rgb(210, 233, 197), inset -10px -10px 10px rgb(2, 99, 2);
+    opacity: 0.5;
+}
+
+.blue {
+    background: radial-gradient(circle, rgb(96, 96, 245) 0%,  rgb(0, 0, 255) 100%);
+    box-shadow: inset 5px 5px 10px rgb(174, 180, 230), inset -10px -10px 10px rgb(2, 9, 107);
+    opacity: 0.5;
+}
+
+.yellow {
+    background: radial-gradient(circle, rgb(219, 219, 146) 0%,  rgb(255, 255, 0) 100%);
+    box-shadow: inset 5px 5px 10px rgb(252, 252, 252), inset -10px -10px 10px rgb(124, 126, 2);
+    opacity: 0.5;
+}
+
+.play {
+    width: 250px;
+    height: 60px;
+    border-radius: 0.5rem;
+    border: none;
+    margin-top: 2rem;
+    cursor: pointer;
+    font-size: 2rem;
+    font-weight: 600;
+    box-shadow: inset -5px -5px 10px rgb(202, 201, 201), inset 5px 5px 10px rgb(202, 201, 201);
+}
+
+.blue-background {
+    background: radial-gradient(circle, rgba(65,215,231,1) 0%, rgb(9, 75, 150) 100%);
+}
+
+.red-background-first {
+    background: radial-gradient(circle, rgb(231, 104, 65) 0%, rgb(114, 16, 13) 100%);
+}
+
+.red-background-second {
+    background: radial-gradient(circle, rgb(77, 32, 18) 0%, rgb(54, 8, 5) 100%);
+}
+
+.green-background {
+    background: radial-gradient(circle, rgb(98, 231, 65) 0%, rgb(12, 99, 4) 100%);
+}
+
+.hidden {
+    display: none;
+}
